@@ -54,7 +54,7 @@ services:
   # -------------------------------------
   react-frontend:
     build:
-      context: ./Frontend/photohub/frontend
+      context: ./Frontend/photohub
       dockerfile: Dockerfile
     container_name: react_frontend
     restart: unless-stopped
